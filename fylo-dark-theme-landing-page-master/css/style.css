@@ -1,0 +1,341 @@
+*{
+
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+
+
+    background-color: #1c2230;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.container{
+
+    width: 100%;
+    
+    background-color:#181f2b;
+    padding: 0%;
+    
+    margin-bottom: 30%;
+
+    z-index: 1;
+   
+}
+
+
+
+
+nav {
+    width: 100%;
+height: 130px;
+padding-top: 3%;
+background-color: #181e2a;
+display: flex;
+align-items:center;
+
+}
+
+
+li{
+    list-style-type: none; 
+   
+    display: inline-flex;
+    flex-wrap: wrap;
+  margin: 8px;
+}
+
+a{
+
+    color: white;
+    text-decoration: none;
+}
+
+#imagenNav{
+    margin-left: 5%;
+    width: 12%;
+    margin-bottom: 2%;
+ 
+}
+
+ul{
+
+    margin-right: 10%;
+}
+
+
+/*MAIN */
+/* #181f2b */
+
+
+main{
+
+    width: 100%;
+   
+   background-color:#181e2a ; 
+  
+
+}
+
+#curva{
+
+
+    width: 100%;
+    flex-direction: column ;
+    justify-content: flex-end;
+
+ 
+}
+
+#ilustracion{
+
+    width: 100%;
+    padding: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.allYourFiles{
+
+   text-align: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+
+
+#primerTexto{
+
+   width: 60%;
+
+
+}
+
+/* 
+.fondoMain{
+
+    width: 50%;
+    height: auto;
+    background-color: teal;
+} */
+
+.elServicio{
+   width: 50%;
+   padding-top: 10%;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+
+
+/*---------------
+//MAIN PRODUCTIVE
+------------*/
+#Manteniendoseproductivo{
+ padding: 10%;
+  
+}
+
+#stayProductiveText{
+
+
+    padding-top: 7%;
+    color: white;
+    
+    text-align: center;
+
+}
+
+#stayProductiveImg{
+  margin-left: 15%;
+ width: 70%;
+
+}
+
+#contenedorComentarios{
+width: 100%;
+height: 200px;
+
+
+
+
+}
+
+
+.comentarios{
+    
+
+ padding-top: 3%;
+ padding-bottom: 1%;
+  font-size: 12px;
+   background-color: #21293c;
+   border-right: #1a212b solid 10px;
+   border-bottom: #1a212b solid 10px;
+   border-radius: 3%; 
+
+   color: white;
+
+  text-align: center;
+ 
+
+}
+
+
+.imagenComentario{
+
+    width: 10%;
+    border-radius: 50%;
+  float: left;
+}
+
+#bgQuotes{
+ 
+  margin-top: -20%;
+  margin-left: -55%;
+   width: 13%; 
+   height: auto;
+ display: inline-flex;
+   position: absolute ;z-index: 0;
+ 
+
+
+}
+
+
+
+#getHearly{
+    
+    height: 200px;
+    background-color: #1c2230;
+    color: white;
+    text-align: center;
+    margin-top: -10%;
+    padding: 2%;
+    border-radius: 10px;
+    border-right:  #13192265 solid  5px;
+    border-bottom: #13192265 solid 5px;
+}
+
+
+
+
+.button{
+    
+  height: 30px;
+  border: 0px;
+  border-radius: 15px;
+  color: white; 
+  background-color: #41b0d1;
+   margin: 3%;
+   margin-top: 3%;
+   border-right: solid 2px #1c1c2ccc ;
+   border-bottom: solid 4px #1c1c2ccc ;
+  }
+
+ #email{
+    height: 30px;
+    border-radius: 15px;
+
+
+ }
+
+
+ /*------------
+ CONTENIDO FOOTER
+ -------------*/
+
+footer{
+
+    width: 100%;
+    height: 16%;
+    padding: 2%;
+
+    background-color:#0c1524;
+    display: flex;
+
+}
+
+
+
+
+
+
+@media (min-width: 768px){
+    #getHearly{
+        margin-left: 17%;
+        height: 200px;
+        background-color: #1c2230;
+        color: white;
+        text-align: center;
+        margin-bottom: -10%;
+        padding: 2%;
+        border-radius: 10px;
+        border-right:  #13192265 solid  5px;
+        border-bottom: #13192265 solid 5px;
+    }
+    
+}
+
+@media (max-width: 375px){
+    #getHearly{
+       
+        height: 300px;
+        background-color: #1c2230;
+        color: white;
+        text-align: center;
+        margin-bottom: -10%;
+        padding: 2%;
+        border-radius: 10px;
+        border-right:  #13192265 solid  5px;
+        border-bottom: #13192265 solid 5px;
+    }
+    
+}
+
+
+.row{
+    
+
+height: auto;
+
+}    
+.divisorFooter{
+
+    color: white;
+    margin-top: 17%;
+    margin-left: 5%;
+}
+
+
+
+
+#icono1{
+
+    margin-left:-7%;
+    float: left;
+}
+
+.FooterArticles{
+
+margin-left: 10%;
+
+}
+
+
+#icono2{
+
+    margin-left:-7%;
+    float: left;
+}
+
+#icono3{
+     
+    margin-left:-7%;
+    float: left;
+}
